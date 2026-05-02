@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carmen | Red Intergeneracional Granada 2031</title>
+    <meta name="description"
+        content="Jóvenes ayudan a mayores de Granada con tecnología y ganan puntos culturales. Únete a la red Carmen — Capitalidad 2031.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <nav id="navbar">
+        <div class="container nav-content">
+            <div class="logo">
+                <i class="fas fa-heart" style="color: var(--primary); margin-right: 8px;"></i>
+                CARMEN <span>GRANADA</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#como-funciona">Cómo funciona</a></li>
+                <li><a href="#beneficios">Aportes</a></li>
+                <li><a href="#recompensas">Recompensas</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="#login" class="open-login-modal nav-login">Entrar</a>
+                <a href="#unirse" class="btn-primary open-modal">Únete ahora</a>
+            </div>
+            <!-- Hamburger for mobile -->
+            <button class="hamburger" id="hamburger" aria-label="Abrir menú">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <!-- Mobile menu -->
+        <div class="mobile-menu" id="mobile-menu">
+            <ul>
+                <li><a href="#inicio" class="mobile-link">Inicio</a></li>
+                <li><a href="#como-funciona" class="mobile-link">Cómo funciona</a></li>
+                <li><a href="#beneficios" class="mobile-link">Aportes</a></li>
+                <li><a href="#recompensas" class="mobile-link">Recompensas</a></li>
+                <li><a href="#faq" class="mobile-link">Preguntas frecuentes</a></li>
+                <li><a href="#unirse" class="btn-primary open-modal"
+                        style="margin-top:0.5rem; display:block; text-align:center;">Únete ahora</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header class="hero" id="inicio">
+        <div class="hero-bg-image"
+            style="background-image: url('https://images.unsplash.com/photo-1587974928442-77dc3e0dba72?auto=format&fit=crop&q=80&w=1600');">
+        </div>
+        <div class="hero-overlay"></div>
+
+        <div class="container text-center hero-content">
+            <div class="badge reveal">
+                Proyecto Capitalidad Cultural 2031 · Piloto en Zaidín
+            </div>
+            <h1 class="reveal" style="font-family: 'DM Serif Display', serif;">
+                Una red intergeneracional para que <br><span style="color: var(--primary);">Granada</span> no deje a
+                nadie atrás.
+            </h1>
+            <p class="reveal subtitle">
+                Conectamos jóvenes con personas mayores de Granada para intercambiar ayuda digital, cultura y compañía.
+                <strong>Los jóvenes ganan puntos culturales y certificados.</strong> Los mayores ganan autonomía real.
+            </p>
+            <!-- CTAs más concretos y accionables -->
+            <div class="hero-btns reveal">
+                <a href="#unirse" class="btn-primary open-modal">
+                    <i class="fas fa-graduation-cap"></i> Quiero ayudar y ganar puntos
+                </a>
+                <a href="#unirse" class="btn-secondary open-modal">
+                    <i class="fas fa-hands-helping"></i> Necesito aprender Bizum
+                </a>
+            </div>
+            <!-- Trust bar -->
+            <div class="trust-bar reveal">
+                <span><i class="fas fa-shield-alt"></i> Jóvenes verificados</span>
+                <span><i class="fas fa-whatsapp" style="font-family:'Font Awesome 6 Brands';"></i><i
+                        class="fab fa-whatsapp"></i> Acceso por WhatsApp</span>
+                <span><i class="fas fa-certificate"></i> Certificados descargables</span>
+                <span><i class="fas fa-map-marker-alt"></i> Barrios de Granada</span>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </header>
+
+    <!-- COMO FUNCIONA -->
+    <section id="como-funciona" class="section-padding" style="background-color: var(--bg-alt);">
+        <div class="container">
+            <div class="text-center reveal">
+                <span class="section-badge">Así funciona</span>
+                <h2>Tres pasos. Dos generaciones. Un barrio.</h2>
+                <p class="section-sub">Cada sesión dura entre 45 y 90 minutos. Tú decides cuándo y dónde.</p>
+            </div>
+
+            <div class="steps-grid">
+                <div class="step-card reveal">
+                    <div class="step-img">
+                        <!-- Imagen: mayor con smartphone -->
+                        <img src="https://images.unsplash.com/photo-1616587226960-4a03badbe8bf?auto=format&fit=crop&q=80&w=600"
+                            alt="Persona mayor usando un smartphone para pedir ayuda">
+                        <div class="step-number">1</div>
+                    </div>
+                    <div class="step-content">
+                        <div class="step-icon"><i class="fas fa-mobile-alt"></i></div>
+                        <h3>El mayor pide ayuda</h3>
+                        <p>Por <strong>WhatsApp, llamada telefónica</strong> o desde la app. Sin complicaciones. Puede
+                            pedir ayuda con Bizum, cita médica online, videollamadas o redes sociales.</p>
+                    </div>
+                </div>
+
+                <div class="step-card reveal" style="transition-delay: 100ms;">
+                    <div class="step-img">
+                        <!-- Imagen: conexión, matching, mapa urbano -->
+                        <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&q=80&w=600"
+                            alt="Joven siendo emparejado con una persona mayor en su barrio">
+                        <div class="step-number">2</div>
+                    </div>
+                    <div class="step-content">
+                        <div class="step-icon"><i class="fas fa-heart"></i></div>
+                        <h3>Carmen conecta</h3>
+                        <p>Buscamos al joven <strong>más cercano, formado y verificado</strong> del barrio. El
+                            emparejamiento considera disponibilidad, habilidades y afinidad personal.</p>
+                    </div>
+                </div>
+
+                <div class="step-card reveal" style="transition-delay: 200ms;">
+                    <div class="step-img">
+                        <!-- Imagen: joven y mayor juntos sonriendo -->
+                        <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=80&w=600"
+                            alt="Joven y persona mayor sonriendo mientras usan el ordenador juntos">
+                        <div class="step-number">3</div>
+                    </div>
+                    <div class="step-content">
+                        <div class="step-icon"><i class="fas fa-award"></i></div>
+                        <h3>Ambos ganan</h3>
+                        <p>El mayor gana <strong>autonomía y compañía real</strong>. El joven gana <strong>50 puntos por
+                                hora</strong> de ayuda, canjeables por cultura, y certificados para su CV.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LO QUE CADA GENERACION APORTA -->
+    <section id="beneficios" class="section-padding">
+        <div class="container">
+            <div class="text-center reveal">
+                <h2 style="font-family: 'DM Serif Display', serif; font-size: 3rem;">Lo que cada generación aporta</h2>
+                <p style="color: var(--text-muted); max-width: 600px; margin: 1rem auto 3rem;">Carmen no es caridad. Es
+                    una red donde cada persona da y recibe algo valioso.</p>
+            </div>
+
+            <div class="benefits-grid">
+                <div class="benefit-box reveal">
+                    <!-- Imagen: mayor aprendiendo tecnología -->
+                    <div class="benefit-img"
+                        style="background-image: url('https://images.unsplash.com/photo-1516302752625-fcc3c50ae61f?auto=format&fit=crop&q=80&w=800');">
+                    </div>
+                    <div class="benefit-body">
+                        <h3>Lo que gana el mayor</h3>
+                        <ul>
+                            <li><i class="fas fa-check-circle" style="color: var(--primary);"></i>
+                                <div><strong>Autonomía digital real</strong><br><span>Banca online, citas médicas,
+                                        videollamadas con familia</span></div>
+                            </li>
+                            <li><i class="fas fa-check-circle" style="color: var(--primary);"></i>
+                                <div><strong>Compañía humana cercana</strong><br><span>Una persona real de tu barrio, no
+                                        un chatbot</span></div>
+                            </li>
+                            <li><i class="fas fa-check-circle" style="color: var(--primary);"></i>
+                                <div><strong>Seguridad digital</strong><br><span>Aprende a detectar estafas y proteger
+                                        tus datos</span></div>
+                            </li>
+                            <li><i class="fas fa-check-circle" style="color: var(--primary);"></i>
+                                <div><strong>Acceso a la vida cultural</strong><br><span>Exposiciones, eventos y paseos
+                                        guiados por Granada</span></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="benefit-box reveal" style="transition-delay: 100ms;">
+                    <!-- Imagen: jóvenes colaborando -->
+                    <div class="benefit-img"
+                        style="background-image: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80&w=800');">
+                    </div>
+                    <div class="benefit-body">
+                        <h3>Lo que gana el joven</h3>
+                        <ul>
+                            <li><i class="fas fa-check-circle" style="color: var(--secondary);"></i>
+                                <div><strong>50 Puntos Carmen por hora</strong><br><span>Canjeables por cine, teatro,
+                                        transporte y formación</span></div>
+                            </li>
+                            <li><i class="fas fa-check-circle" style="color: var(--secondary);"></i>
+                                <div><strong>Certificados para el CV</strong><br><span>Competencias verificadas
+                                        descargables en PDF</span></div>
+                            </li>
+                            <li><i class="fas fa-check-circle" style="color: var(--secondary);"></i>
+                                <div><strong>Experiencia profesional real</strong><br><span>Comunicación, empatía y
+                                        resolución de problemas</span></div>
+                            </li>
+                            <li><i class="fas fa-check-circle" style="color: var(--secondary);"></i>
+                                <div><strong>Acceso prioritario Granada 2031</strong><br><span>Eventos, conciertos y
+                                        acreditaciones especiales</span></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RECOMPENSAS / AGENDA -->
+    <section id="recompensas" class="section-padding" style="background-color: var(--bg-alt);">
+        <div class="container">
+            <div class="rewards-header reveal">
+                <div>
+                    <span class="section-badge">Catálogo de recompensas</span>
+                    <h2 style="font-family: 'DM Serif Display', serif; font-size: 2.5rem; margin-top: 1rem;">Canjea tus
+                        Puntos Carmen</h2>
+                    <p style="color: var(--text-muted);">50 puntos por hora de ayuda. Así de simple.</p>
+                </div>
+                <a href="#faq" class="link-primary">¿Cómo funcionan los puntos? →</a>
+            </div>
+
+            <div class="card-grid">
+                <div class="reward-card reveal">
+                    <div class="reward-img"
+                        style="background-image: url('https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&q=80&w=800');">
+                    </div>
+                    <div class="reward-info">
+                        <span class="points-badge"><i class="fas fa-ticket-alt"></i> 150 Puntos · 3h de ayuda</span>
+                        <h3>Entrada Cine Madrigal</h3>
+                        <p>Disfruta de los últimos estrenos en el cine más emblemático de la ciudad.</p>
+                    </div>
+                </div>
+                <div class="reward-card reveal" style="transition-delay: 100ms;">
+                    <div class="reward-img"
+                        style="background-image: url('https://images.unsplash.com/photo-1507676184212-d03ab07a01bf?auto=format&fit=crop&q=80&w=800');">
+                    </div>
+                    <div class="reward-info">
+                        <span class="points-badge"><i class="fas fa-ticket-alt"></i> 300 Puntos · 6h de ayuda</span>
+                        <h3>Teatro Isabel la Católica</h3>
+                        <p>Acceso preferente a obras de teatro y espectáculos de danza.</p>
+                    </div>
+                </div>
+                <div class="reward-card reveal" style="transition-delay: 200ms;">
+                    <div class="reward-img"
+                        style="background-image: url('https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&q=80&w=800');">
+                    </div>
+                    <div class="reward-info">
+                        <span class="points-badge"><i class="fas fa-ticket-alt"></i> 500 Puntos · 10h de ayuda</span>
+                        <h3>Abono Alhambra Sound</h3>
+                        <p>Pase VIP para el festival de música más esperado del año.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- IMPACTO ESTADISTICAS -->
+    <section class="section-padding bg-dark stats-section">
+        <div class="container text-center">
+            <div class="reveal">
+                <span class="section-badge" style="background: rgba(212,175,55,0.15); color: var(--secondary);">Piloto
+                    Zaidín — Datos simulados</span>
+                <h2 style="font-family: 'DM Serif Display', serif; font-size: 3rem; margin: 1rem 0; color: white;">El
+                    impacto habla por sí solo.</h2>
+                <p
+                    style="color: rgba(255,255,255,0.6); margin-bottom: 4rem; max-width: 600px; margin-left: auto; margin-right: auto; margin-bottom: 4rem;">
+                    Proyecciones del piloto de 6 meses en el barrio del Zaidín con 80 jóvenes y 125 mayores
+                    participantes.</p>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-item reveal">
+                    <i class="far fa-clock"></i>
+                    <div class="stat-num" data-target="420">0</div>
+                    <div class="stat-label">horas de ayuda digital</div>
+                    <div class="stat-desc">≈ 3,4h por mayor participante</div>
+                </div>
+                <div class="stat-item reveal" style="transition-delay: 100ms;">
+                    <i class="far fa-heart"></i>
+                    <div class="stat-num" data-target="125">0</div>
+                    <div class="stat-label">mayores acompañados</div>
+                    <div class="stat-desc">87% repitió sesión</div>
+                </div>
+                <div class="stat-item reveal" style="transition-delay: 200ms;">
+                    <i class="fas fa-graduation-cap"></i>
+                    <div class="stat-num" data-target="80">0</div>
+                    <div class="stat-label">jóvenes certificados</div>
+                    <div class="stat-desc">100% recomendaría el programa</div>
+                </div>
+                <div class="stat-item reveal" style="transition-delay: 300ms;">
+                    <i class="fas fa-gift"></i>
+                    <div class="stat-num" data-target="92">0</div>
+                    <div class="stat-label">% mayores con más autonomía</div>
+                    <div class="stat-desc">Según encuesta post-sesión</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ - PREGUNTAS FRECUENTES -->
+    <section id="faq" class="section-padding">
+        <div class="container">
+            <div class="text-center reveal">
+                <span class="section-badge">Preguntas frecuentes</span>
+                <h2 style="font-family: 'DM Serif Display', serif; font-size: 2.5rem; margin-top: 1rem;">Todo lo que
+                    necesitas saber</h2>
+            </div>
+
+            <div class="faq-grid">
+                <div class="faq-col">
+                    <div class="faq-item reveal">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>¿Cuánto dura una sesión?</span>
+                            <i class="fas fa-plus faq-icon"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Las sesiones duran entre <strong>45 y 90 minutos</strong>. Tú y el mayor acordáis la
+                                duración según la tarea. Cada sesión completada te da los puntos correspondientes al
+                                tiempo real de ayuda.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item reveal">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>¿Cuántos puntos gano por hora?</span>
+                            <i class="fas fa-plus faq-icon"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Ganas <strong>50 Puntos Carmen por hora</strong> de ayuda. Con 3 horas ya puedes
+                                conseguir una entrada de cine. Con 10 horas, acceso al festival Alhambra Sound.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item reveal">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>¿Funciona por WhatsApp o solo en la app?</span>
+                            <i class="fas fa-plus faq-icon"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Los mayores pueden pedir ayuda de <strong>tres formas</strong>: por
+                                <strong>WhatsApp</strong>, mediante <strong>llamada telefónica</strong> al número de
+                                Carmen, o desde la app. No es necesario que el mayor tenga smartphone; puede llamar
+                                desde un teléfono fijo.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-col">
+                    <div class="faq-item reveal">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>¿Cómo se verifica y protege a los mayores?</span>
+                            <i class="fas fa-plus faq-icon"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Todos los jóvenes pasan por un proceso de verificación: <strong>formación obligatoria
+                                    online</strong> (2h), revisión de identidad y <strong>código de conducta
+                                    firmado</strong>. Las primeras 2 sesiones tienen supervisión de la asociación local
+                                del barrio. Cualquier incidencia se puede reportar directamente desde la app.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item reveal">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>¿En qué barrios funciona ya Carmen?</span>
+                            <i class="fas fa-plus faq-icon"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>El piloto está activo en el <strong>Zaidín</strong>. Durante 2026 se expandirá al
+                                <strong>Albaicín, Realejo y La Chana</strong>. Si vives en otro barrio, apúntate a la
+                                lista de espera y te avisamos cuando lleguemos a tu zona.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item reveal">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>¿Qué pone exactamente en los certificados?</span>
+                            <i class="fas fa-plus faq-icon"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Los certificados incluyen: <strong>horas totales</strong> de participación,
+                                <strong>competencias desarrolladas</strong> (comunicación intergeneracional, educación
+                                digital, resolución de conflictos) y están validados por la <strong>Concejalía de
+                                    Bienestar Social</strong> del Ayuntamiento de Granada. Descargables en PDF desde tu
+                                perfil.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER Y MODALES -->
+    <footer>
+        <!-- Modal de Registro -->
+        <div id="modal-registro" class="modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <h2 style="font-family: 'DM Serif Display', serif; font-size: 2.2rem; color: var(--primary);">Únete a
+                    Carmen</h2>
+                <p style="margin-bottom: 2rem; color: var(--text-muted);">Forma parte de la red intergeneracional de
+                    Granada. El registro es gratuito.</p>
+                <form id="registration-form">
+                    <div class="form-group">
+                        <label>Nombre Completo</label>
+                        <input type="text" id="reg-nombre" placeholder="Ej. María García" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Correo Electrónico</label>
+                        <input type="email" id="reg-email" placeholder="maria@ejemplo.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Barrio de Granada</label>
+                        <select id="reg-barrio" required>
+                            <option value="">Selecciona tu barrio...</option>
+                            <option value="zaidin">Zaidín (Piloto activo ✅)</option>
+                            <option value="albaicin">Albaicín (Lista de espera)</option>
+                            <option value="realejo">Realejo (Lista de espera)</option>
+                            <option value="chana">La Chana (Lista de espera)</option>
+                            <option value="otro">Otro barrio</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Quiero...</label>
+                        <select id="reg-rol" required>
+                            <option value="">Selecciona tu rol...</option>
+                            <option value="ayudar"> Ser joven conector (Ayudar y ganar puntos)</option>
+                            <option value="recibir"> Recibir ayuda digital (Soy mayor o familiar)</option>
+                            <option value="entidad"> Soy una institución o comercio</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn-primary"
+                        style="width: 100%; border: none; justify-content: center;">Registrarme gratis</button>
+                    <p style="font-size:0.8rem; color:var(--text-muted); text-align:center; margin-top:1rem;">Sin spam.
+                        Tus datos son seguros y no se ceden a terceros.</p>
+                </form>
+            </div>
+        </div>
+
+        <!-- Modal de Log In -->
+        <div id="modal-login" class="modal">
+            <div class="modal-content">
+                <span class="close-login-modal"
+                    style="position: absolute; right: 25px; top: 20px; color: var(--text-muted); font-size: 2rem; cursor: pointer;">&times;</span>
+                <h2 style="font-family: 'DM Serif Display', serif; font-size: 2.2rem; color: var(--primary);">Iniciar
+                    Sesión</h2>
+                <p style="margin-bottom: 2rem; color: var(--text-muted);">Accede a tu panel, tus Puntos Carmen y tus
+                    certificados.</p>
+                <form id="login-form">
+                    <div class="form-group">
+                        <label>Corro Electrónico</label>
+                        <input type="email" placeholder="tu@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Contraseña</label>
+                        <input type="password" placeholder="••••••••" required>
+                    </div>
+                    <button type="submit" class="btn-primary"
+                        style="width: 100%; border: none; justify-content: center; margin-top: 1rem;">Entrar</button>
+                    <p style="text-align: center; margin-top: 1.5rem; font-size: 0.9rem; color: var(--text-muted);">
+                        ¿No tienes cuenta? <a href="#unirse" class="open-modal"
+                            style="color: var(--primary); text-decoration: none; font-weight: 600;"
+                            onclick="document.getElementById('modal-login').style.display='none';">Regístrate aquí</a>
+                    </p>
+                </form>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2 style="font-family: 'DM Serif Display', serif; font-size: 2rem;">Carmen</h2>
+                    <p style="color: var(--text-muted); margin-top: 1rem; max-width: 280px;">Una red intergeneracional
+                        para que Granada no deje a nadie atrás. Conectamos generaciones a través de la tecnología y la
+                        cultura.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Plataforma</h4>
+                    <ul>
+                        <li><a href="#como-funciona">Cómo funciona</a></li>
+                        <li><a href="#beneficios">Aportes</a></li>
+                        <li><a href="#recompensas">Recompensas</a></li>
+                        <li><a href="#faq">Preguntas frecuentes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Proyecto 2031</h4>
+                    <ul>
+                        <li><a href="#">Capitalidad Cultural</a></li>
+                        <li><a href="#">Piloto Zaidín</a></li>
+                        <li><a href="#">Seguridad y verificación</a></li>
+                        <li><a href="#">Ayuntamiento de Granada</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div
+                style="border-top: 1px solid var(--border-color); padding-top: 2rem; text-align: center; color: var(--text-muted); font-size: 0.9rem; margin-top: 2rem;">
+                © 2026 Carmen · Granada 2031 · Capitalidad Cultural Europea
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

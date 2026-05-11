@@ -1,10 +1,14 @@
 # Carmen | Red Intergeneracional Granada 2031 💃❤️
 
-![Carmen Granada](https://images.unsplash.com/photo-1587974928442-77dc3e0dba72?auto=format&fit=crop&q=80&w=1600)
+[![🌐 Ver Web en Vivo](https://img.shields.io/badge/🌐%20Ver%20Web%20en%20Vivo-Carmen%20Granada-A62639?style=for-the-badge)](https://juanguillermopadillafernandez-lgtm.github.io/Proyecto-CarmenGranada/)
+
+![Granada — Alhambra y Sierra Nevada](https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&q=80&w=1600)
 
 **Carmen** es una plataforma digital diseñada para conectar a jóvenes estudiantes con personas mayores en los barrios de Granada (comenzando por el Zaidín). El objetivo es combatir la brecha digital y la soledad no deseada, fomentando un intercambio de valor: **ayuda digital por puntos culturales**.
 
 Este proyecto forma parte de la iniciativa para la **Capitalidad Europea de la Cultura Granada 2031**.
+
+> 🔗 **Web en vivo:** [https://juanguillermopadillafernandez-lgtm.github.io/Proyecto-CarmenGranada/](https://juanguillermopadillafernandez-lgtm.github.io/Proyecto-CarmenGranada/)
 
 ---
 

@@ -2,7 +2,7 @@
 
 [![🌐 Ver Web en Vivo](https://img.shields.io/badge/🌐%20Ver%20Web%20en%20Vivo-Carmen%20Granada-A62639?style=for-the-badge)](https://juanguillermopadillafernandez-lgtm.github.io/Proyecto-CarmenGranada/)
 
-![Granada — Alhambra y Sierra Nevada](https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&q=80&w=1600)
+![La Alhambra — Granada](granada.jpg)
 
 **Carmen** es una plataforma digital diseñada para conectar a jóvenes estudiantes con personas mayores en los barrios de Granada (comenzando por el Zaidín). El objetivo es combatir la brecha digital y la soledad no deseada, fomentando un intercambio de valor: **ayuda digital por puntos culturales**.
 
